@@ -3,14 +3,13 @@ import { Component } from '@angular/core';
 @Component({
     moduleId: module.id,
     selector: 'app-root, .app-root, [app-root]',
-    // templateUrl : `app.component.html`,
-    template: `<div class="success callout">
-  <h1>An Angular v ${2+2}  App</h1>
-</div>`
+    templateUrl : `app.component.1.html`,
     styles: [
       `.success { background-color: lightcyan; }`,
       `  h1 { color: white; }`
     ],
     styleUrls: ['app.component.css']
 })
-export class AppComponent { }
+export class AppComponent { 
+   private title: string = 'app works!';
+}

@@ -9,13 +9,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.title = 'app works!';
     }
     AppComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'app-root, .app-root, [app-root]',
-            // templateUrl : `app.component.html`,
-            template: "<div class=\"success callout\">\n  <h1>An Angular v " + (2 + 2) + "  App</h1>\n</div>",
+            templateUrl: "app.component.1.html",
             styles: [
                 ".success { background-color: lightcyan; }",
                 "  h1 { color: white; }"
