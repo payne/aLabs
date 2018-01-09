@@ -1,4 +1,7 @@
 <div class="success callout">
-  <img [src]='src' [alt]='alt' [title]='alt'>
+<figure>
+  <img [src]='src' [alt]='alt' [title]='alt' #dogs >
+  <figcaption>{{'Caption: ' + dogs.alt}}</figcaption>
+</figure>
 </div>
 
