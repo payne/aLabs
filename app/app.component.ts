@@ -12,4 +12,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent { 
    private title: string = 'app works!';
+   private property1 : string = 'a property';
+   constructor() {
+     this.property1 = 'a property from the constructor';
+   }
 }
