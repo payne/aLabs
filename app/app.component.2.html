@@ -1,5 +1,5 @@
-<div class="success callout">
-<figure>
+<div class="success callout" [style.border] = "needsBorder ? '5px solid lightblue' : 'none' ">
+<figure> 
   <img [src]='src' [alt]='alt' [title]='alt' #dogs >
   <figcaption>{{'Caption: ' + dogs.alt}}</figcaption>
 </figure>
