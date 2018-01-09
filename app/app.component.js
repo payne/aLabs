@@ -14,9 +14,21 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'app works!';
         this._property1 = 'a property from the constructor';
+        this._src = 'http://www.dogbreedplus.com/dog_names/images/funny-dog-names.jpg';
+        this._alt = 'funny dogs';
     }
     Object.defineProperty(AppComponent.prototype, "property1", {
         get: function () { return this._property1 + ' from the accessor'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AppComponent.prototype, "src", {
+        get: function () { return this._src; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AppComponent.prototype, "alt", {
+        get: function () { return this._alt; },
         enumerable: true,
         configurable: true
     });
@@ -24,7 +36,7 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app-root, .app-root, [app-root]',
-            templateUrl: "app.component.1.html",
+            templateUrl: "app.component.2.html",
             styles: [
                 ".success { background-color: lightcyan; }",
                 "  h1 { color: white; }"

@@ -3,3 +3,4 @@ h6 {
 }
 .success { background-color: red; }
 h1 { background-color: black; }
+img { max-height: 150px; }
