@@ -14,7 +14,8 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app-root, .app-root, [app-root]',
-            templateUrl: "app.component.html",
+            // templateUrl : `app.component.html`,
+            template: "<div class=\"success callout\">\n  <h1>An Angular v " + (2 + 2) + "  App</h1>\n</div>",
             styleUrls: ['app.component.css']
         })
     ], AppComponent);
