@@ -16,6 +16,10 @@ var AppComponent = /** @class */ (function () {
             selector: 'app-root, .app-root, [app-root]',
             // templateUrl : `app.component.html`,
             template: "<div class=\"success callout\">\n  <h1>An Angular v " + (2 + 2) + "  App</h1>\n</div>",
+            styles: [
+                ".success { background-color: lightcyan; }",
+                "  h1 { color: white; }"
+            ],
             styleUrls: ['app.component.css']
         })
     ], AppComponent);
