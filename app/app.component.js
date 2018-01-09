@@ -13,9 +13,13 @@ var core_1 = require("@angular/core");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'app works!';
-        this.property1 = 'a property';
-        this.property1 = 'a property from the constructor';
+        this._property1 = 'a property from the constructor';
     }
+    Object.defineProperty(AppComponent.prototype, "property1", {
+        get: function () { return this._property1 + ' from the accessor'; },
+        enumerable: true,
+        configurable: true
+    });
     AppComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
