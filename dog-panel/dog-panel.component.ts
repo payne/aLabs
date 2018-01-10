@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
     moduleId: module.id,
     selector: 'app-root',
-    templateUrl : `basic.component.html`,
-    styleUrls: ['basic.component.css']
+    templateUrl : `dog-panel.component.html`,
+    styleUrls: ['dog-panel.component.css']
 })
-export class BasicComponent { 
+export class DogPanel { 
 }
