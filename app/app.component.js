@@ -17,6 +17,9 @@ var AppComponent = /** @class */ (function () {
         this._src = 'http://www.dogbreedplus.com/dog_names/images/funny-dog-names.jpg';
         this._alt = 'funny dogs';
         this.needsBorder = true;
+        this.isSuccess = true;
+        this.isHidden = false;
+        this.isFourColumns = true;
     }
     Object.defineProperty(AppComponent.prototype, "property1", {
         get: function () { return this._property1 + ' from the accessor'; },

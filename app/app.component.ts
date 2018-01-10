@@ -14,6 +14,9 @@ export class AppComponent {
    private _src : string;
    private _alt : string;
    private needsBorder: boolean;
+   private isSuccess: boolean;
+   private isHidden: boolean;
+   private isFourColumns: boolean;
    private title: string = 'app works!';
    private _property1 : string;
    constructor() {
@@ -21,6 +24,9 @@ export class AppComponent {
      this._src = 'http://www.dogbreedplus.com/dog_names/images/funny-dog-names.jpg';
      this._alt = 'funny dogs';
      this.needsBorder = true;
+     this.isSuccess = true;
+     this.isHidden = false;
+     this.isFourColumns = true;
    }
    public get property1() : string { return this._property1 + ' from the accessor'; }
    public get src() : string { return this._src; }
