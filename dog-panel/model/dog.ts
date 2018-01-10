@@ -47,3 +47,7 @@ Balance: $${this.balance}
         `;
     }
 }
+// Testing
+let dog:Dog = new Dog(1, "Test Dog", 5, "test breed", true);
+console.log(dog.oneLine);
+
