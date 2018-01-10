@@ -5,7 +5,7 @@ import { MockDogs } from './model/dog-data';
 @Component({
     moduleId: module.id,
     selector: 'app-root',
-    templateUrl : `dog-panel.component.html`,
+    templateUrl : `dog-panel.component.1.html`,
     styleUrls: ['dog-panel.component.css']
 })
 export class DogPanel { 

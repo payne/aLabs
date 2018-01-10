@@ -27,7 +27,7 @@ var DogPanel = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app-root',
-            templateUrl: "dog-panel.component.html",
+            templateUrl: "dog-panel.component.1.html",
             styleUrls: ['dog-panel.component.css']
         }),
         __metadata("design:paramtypes", [])
