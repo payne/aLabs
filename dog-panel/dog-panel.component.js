@@ -11,8 +11,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var dog_1 = require("./model/dog");
+var dog_data_1 = require("./model/dog-data");
 var DogPanel = /** @class */ (function () {
     function DogPanel() {
+        this.mockDogs = dog_data_1.MockDogs.SIX;
         this._dog = new dog_1.Dog(1, 'Rover', 5, "mongrel", true);
         console.log('Created: ', this);
     }
